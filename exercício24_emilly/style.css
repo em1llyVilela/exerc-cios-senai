@@ -1,0 +1,38 @@
+/*Emilly Vilela de Souza*/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.audio-player {
+    background-color: #ffebee; /* Rosa claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e91e63; /* Rosa */
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c2185b; /* Rosa escuro */
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(233, 30, 99, 0.5); /* Rosa */
+}
