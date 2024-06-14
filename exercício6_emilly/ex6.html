@@ -1,0 +1,26 @@
+<!--Emilly Vilela de Souza-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Seção de Comentários</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Seção de Comentários</h2>
+    <form id="commentForm">
+      <div class="form-group">
+        <label for="comment">Comentário:</label>
+        <input type="text" id="comment" name="comment" required>
+      </div>
+      <button type="button" onclick="addComment()">Adicionar Comentário</button>
+    </form>
+    <div class="comments" id="commentList">
+      <!-- Comentários serão adicionados aqui -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/*Emilly Vilela de Souza*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fef4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.clock-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#clock {
+    font-size: 60px;
+    color: #f76383;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+

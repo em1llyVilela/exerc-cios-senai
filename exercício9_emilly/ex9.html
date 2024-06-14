@@ -1,0 +1,23 @@
+<!--Emilly Vilela de Souza-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação de Botão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button id="animateButton" class="button">Clique-me</button>
+    </div>
+    <script>
+        document.getElementById('animateButton').addEventListener('click', function() {
+            let button = document.getElementById('animateButton');
+            button.classList.remove('animate');
+            void button.offsetWidth; // Força o reflow
+            button.classList.add('animate');
+        });
+    </script>
+</body>
+</html>

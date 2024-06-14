@@ -1,0 +1,28 @@
+<!--Emilly Vilela de Souza-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload de Arquivos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Upload de Arquivos com Visualização</h2>
+  <form id="uploadForm" enctype="multipart/form-data" onsubmit="submitForm(event)">
+    <div class="upload-container">
+      <input type="file" id="fileInput" multiple onchange="previewFiles()">
+      <button type="submit">Enviar Arquivos</button>
+    </div>
+  </form>
+  <h3>Visualizar Arquivos</h3>
+  <div id="filePreview"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+

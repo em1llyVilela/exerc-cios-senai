@@ -1,0 +1,73 @@
+/*Emilly Vilela de Souza*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #ff007f;
+  }
+  
+  .upload-container {
+    background-color: #ffe4e1;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #ff007f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e60073;
+  }
+  
+  #filePreview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .preview-image {
+    border: 5px solid #ff007f;
+    border-radius: 10px;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 10px;
+  }
+  
+  .preview-image-container {
+    position: relative;
+  }
+  
+  .preview-image-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff007f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+
+  
